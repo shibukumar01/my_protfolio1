@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Shibu Kumar | Machine Learning Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
+        
+        :root { --dark-bg: #0a0a0a; --dark-card: #1a1a1a; --text-light: #e8e8e8; --accent-yellow: #e8ff47; --border-dark: #2a2a2a; }
+        
+        body { background: var(--dark-bg); color: var(--text-light); line-height: 1.6; }
+        
+        .navbar { position: fixed; top: 0; width: 100%; padding: 1.5rem 9%; display: flex; justify-content: space-between; align-items: center; background: rgba(10, 10, 10, 0.98); backdrop-filter: blur(10px); z-index: 1000; box-shadow: 0 8px 32px rgba(232, 255, 71, 0.1); border-bottom: 1px solid var(--border-dark); }
+        
+        .logo { font-size: 1.8rem; font-weight: 700; color: var(--text-light); }
+        .logo span { color: var(--accent-yellow); }
+        
+        .nav-links { list-style: none; display: flex; gap: 2rem; }
+        .nav-links a { color: var(--text-light); font-weight: 500; text-decoration: none; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; transition: 0.3s; }
+        .nav-links a:hover { color: var(--accent-yellow); }
+        
+        .container { margin-top: 8rem; padding: 4rem 9%; max-width: 1400px; margin-left: auto; margin-right: auto; }
+        
+        .section-heading { font-size: 3.5rem; margin-bottom: 4rem; font-weight: 700; }
+        .section-heading .number { color: #333; margin-right: 1rem; font-weight: 300; font-size: 4rem; }
+        .section-heading .highlight { color: var(--accent-yellow); }
+        
+        .contact-wrapper { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; }
+        
+        .contact-info h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 2rem; }
+        
+        .contact-info p { color: #aaa; font-size: 0.95rem; line-height: 1.8; margin-bottom: 2rem; }
+        
+        .contact-links { display: flex; flex-direction: column; gap: 1.5rem; }
+        
+        .contact-link { display: flex; align-items: center; gap: 1rem; color: #999; text-decoration: none; font-size: 0.9rem; transition: 0.3s; }
+        
+        .contact-link:hover { color: var(--accent-yellow); }
+        
+        .contact-link-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px; color: #666; }
+        
+        .contact-link-value { color: var(--text-light); }
+        
+        .form-group { margin-bottom: 1.5rem; }
+        
+        .form-group label { display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #777; margin-bottom: 0.5rem; }
+        
+        .form-group input, .form-group textarea { width: 100%; padding: 1rem; background: var(--dark-card); border: 1px solid var(--border-dark); color: var(--text-light); font-family: 'Poppins', sans-serif; border-radius: 2px; transition: 0.3s; }
+        
+        .form-group input:focus, .form-group textarea:focus { outline: none; border-color: var(--accent-yellow); }
+        
+        .submit-btn { width: 100%; padding: 1.2rem; background: var(--accent-yellow); color: var(--dark-bg); border: none; font-weight: 700; font-size: 0.9rem; text-transform: uppercase; border-radius: 2px; cursor: pointer; transition: 0.3s; }
+        
+        .submit-btn:hover { opacity: 0.9; }
+        
+        .back-link { display: inline-block; margin-bottom: 3rem; color: var(--accent-yellow); text-decoration: none; font-weight: 600; }
+        
+        @media (max-width: 768px) { .navbar { flex-direction: column; gap: 1rem; } .nav-links { flex-wrap: wrap; justify-content: center; } .container { margin-top: 12rem; } .section-heading { font-size: 2rem; } .contact-wrapper { grid-template-columns: 1fr; gap: 2rem; } }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Shibu<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a href="contact.html" style="color: var(--accent-yellow);">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        
+        <h2 class="section-heading">
+            <span class="number">08</span>Let's <span class="highlight">Connect</span>
+        </h2>
+
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3>Open to opportunities</h3>
+                <p>Open to ML internships, research collaborations, project partnerships, and interesting technical discussions. Currently based in Punjab, India — open to remote and relocation opportunities.</p>
+                
+                <div class="contact-links">
+                    <a href="mailto:shibukumar122023@gmail.com" class="contact-link">
+                        <div>
+                            <div class="contact-link-label">EMAIL</div>
+                            <div class="contact-link-value">shibukumar122023@gmail.com</div>
+                        </div>
+                        <span>→</span>
+                    </a>
+                    
+                    <a href="tel:+919234146081" class="contact-link">
+                        <div>
+                            <div class="contact-link-label">MOBILE</div>
+                            <div class="contact-link-value">+91 9234146081</div>
+                        </div>
+                        <span>→</span>
+                    </a>
+                    
+                    <a href="https://linkedin.com/in/shibukumar01" target="_blank" class="contact-link">
+                        <div>
+                            <div class="contact-link-label">LINKEDIN</div>
+                            <div class="contact-link-value">linkedin.com/in/shibukumar01</div>
+                        </div>
+                        <span>→</span>
+                    </a>
+                    
+                    <a href="https://github.com/shibukumar01" target="_blank" class="contact-link">
+                        <div>
+                            <div class="contact-link-label">GITHUB</div>
+                            <div class="contact-link-value">github.com/shibukumar01</div>
+                        </div>
+                        <span>→</span>
+                    </a>
+                    
+                    <a href="https://leetcode.com" target="_blank" class="contact-link">
+                        <div>
+                            <div class="contact-link-label">LEETCODE</div>
+                            <div class="contact-link-value">150+ Problems Solved</div>
+                        </div>
+                        <span>→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">NAME</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">SUBJECT</label>
+                        <input type="text" id="subject" name="subject" placeholder="ML internship / collaboration / other" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">MESSAGE</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about the opportunity or project..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">SEND MESSAGE →</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            const mailtoLink = `mailto:shibukumar122023@gmail.com?subject=${encodeURIComponent(subject)}&body=From: ${encodeURIComponent(name)} (${encodeURIComponent(email)})%0A%0A${encodeURIComponent(message)}`;
+            
+            window.location.href = mailtoLink;
+        }
+    </script>
+</body>
+</html>

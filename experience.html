@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Shibu Kumar | Machine Learning Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
+        
+        :root { --dark-bg: #0a0a0a; --dark-card: #1a1a1a; --text-light: #e8e8e8; --accent-yellow: #e8ff47; --border-dark: #2a2a2a; }
+        
+        body { background: var(--dark-bg); color: var(--text-light); line-height: 1.6; }
+        
+        .navbar { position: fixed; top: 0; width: 100%; padding: 1.5rem 9%; display: flex; justify-content: space-between; align-items: center; background: rgba(10, 10, 10, 0.98); backdrop-filter: blur(10px); z-index: 1000; box-shadow: 0 8px 32px rgba(232, 255, 71, 0.1); border-bottom: 1px solid var(--border-dark); }
+        
+        .logo { font-size: 1.8rem; font-weight: 700; color: var(--text-light); }
+        .logo span { color: var(--accent-yellow); }
+        
+        .nav-links { list-style: none; display: flex; gap: 2rem; }
+        .nav-links a { color: var(--text-light); font-weight: 500; text-decoration: none; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; transition: 0.3s; }
+        .nav-links a:hover { color: var(--accent-yellow); }
+        
+        .container { margin-top: 8rem; padding: 4rem 9%; max-width: 1400px; margin-left: auto; margin-right: auto; }
+        
+        .section-heading { font-size: 3.5rem; margin-bottom: 4rem; font-weight: 700; }
+        .section-heading .number { color: #333; margin-right: 1rem; font-weight: 300; font-size: 4rem; }
+        .section-heading .highlight { color: var(--accent-yellow); }
+        
+        .experience-item { padding: 2.5rem 0; border-bottom: 1px solid var(--border-dark); }
+        .experience-item:last-child { border-bottom: none; }
+        
+        .exp-date { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; color: #777; margin-bottom: 0.5rem; }
+        
+        .exp-company { font-size: 0.9rem; color: var(--accent-yellow); font-weight: 600; margin-bottom: 0.5rem; }
+        
+        .exp-title { font-size: 1.4rem; color: var(--text-light); font-weight: 700; margin-bottom: 1rem; text-transform: uppercase; }
+        
+        .exp-description { color: #aaa; font-size: 0.95rem; line-height: 1.8; margin-bottom: 1.5rem; }
+        
+        .exp-tags { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+        
+        .exp-tag { padding: 0.4rem 1rem; border: 1px solid #555; color: #999; border-radius: 2px; font-size: 0.8rem; }
+        
+        .back-link { display: inline-block; margin-bottom: 3rem; color: var(--accent-yellow); text-decoration: none; font-weight: 600; }
+        
+        @media (max-width: 768px) { .navbar { flex-direction: column; gap: 1rem; } .nav-links { flex-wrap: wrap; justify-content: center; } .container { margin-top: 12rem; } .section-heading { font-size: 2rem; } }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Shibu<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="experience.html" style="color: var(--accent-yellow);">Experience</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        
+        <h2 class="section-heading">
+            <span class="number">04</span>Experience & <span class="highlight">Internships</span>
+        </h2>
+
+        <div class="experience-item">
+            <div class="exp-date">Current</div>
+            <div class="exp-company">Lovely Professional University</div>
+            <h3 class="exp-title">B.Tech CSE Student</h3>
+            <p class="exp-description">Pursuing Bachelor of Technology in Computer Science & Engineering. Specializing in Machine Learning and Data Engineering. Active in competitive programming and developing ML projects.</p>
+            <div class="exp-tags">
+                <span class="exp-tag">Machine Learning</span>
+                <span class="exp-tag">Data Engineering</span>
+                <span class="exp-tag">Python</span>
+                <span class="exp-tag">Competitive Programming</span>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="exp-date">2023 — 2027</div>
+            <div class="exp-company">Lovely Professional University</div>
+            <h3 class="exp-title">Full-time Student | CGPA: 5.94</h3>
+            <p class="exp-description">Enrolled in comprehensive computer science curriculum covering data structures, algorithms, databases, web development, and advanced machine learning concepts. Maintained consistent academic performance while pursuing practical projects.</p>
+            <div class="exp-tags">
+                <span class="exp-tag">DSA</span>
+                <span class="exp-tag">Databases</span>
+                <span class="exp-tag">Web Dev</span>
+                <span class="exp-tag">ML Concepts</span>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="exp-date">Check Updates</div>
+            <div class="exp-company">Internship Opportunity</div>
+            <h3 class="exp-title">Open to ML/Data Science Internships</h3>
+            <p class="exp-description">Actively seeking internship opportunities in Machine Learning, Data Science, and Data Engineering roles. Ready to contribute to real-world projects and work with experienced mentors in the AI/ML domain.</p>
+            <div class="exp-tags">
+                <span class="exp-tag">ML Internship</span>
+                <span class="exp-tag">Data Science</span>
+                <span class="exp-tag">Remote/Onsite</span>
+                <span class="exp-tag">Available</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
